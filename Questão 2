@@ -1,0 +1,10 @@
+#Questão N°2
+AM=int(input('Digite a quantidade de alunos do sexo masculino:')) 
+AF=int(input('Digite a quantidade de alunos do sexo feminino:')) 
+AA=int(input('Digite a quantidade de alunos Aprovados:')) 
+TA=AM+AF
+PAM=(AM*100)/TA PAF=(AF*100)/TA PAA=(AA*100)/TA
+print('Total de alunos:', TA)
+print('Porcentagem de alunos do sexo masculino:', round(PAM,2), '%') 
+print('Porcentagem de alunos do sexo feminino:', round(PAF,2), '%') 
+print('Porcentagem de alunos aprovados:', round(PAA,2), '%')
