@@ -1,0 +1,15 @@
+#Questão N°3
+N1=float(input('Digite a nota da AP1:')) 
+N2=float(input('Digite a nota da AP2:'))
+M=(N1+N2)/2
+print('Media',M) 
+if M >=7:
+    print('Aprovado') 
+else:
+    N3=float(input('Digite a nota da AP3:'))
+    MF=(N1+N2+(N3*2))/4
+    print('Media Final:', MF) 
+    if MF >=6:
+        print('Aprovado') 
+    else:
+        print('Reprovado')
