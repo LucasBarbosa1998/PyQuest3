@@ -1,0 +1,21 @@
+#Questão N°14
+sal=float(input('Digite seu Salário:')) 
+if sal<2000:
+    grat1=sal*(5/100) sal1=sal+grat1
+    print('Valor de gratificação:R$', grat1) 
+    print('Salário líquido:R$', sal1)
+if sal>=2000 and sal<=2500: 
+    grat2=sal*(10/100) 
+    sal2=sal+grat2
+    print('Valor de gratificação:R$', grat2) 
+    print('Salário líquido:R$', sal2)
+elif sal>2500 and sal<=3000: 
+    grat3=sal*(15/100) 
+    sal3=sal+grat3
+    print('Valor de gratificação:R$', grat3) 
+    print('Salário líquido:R$', sal3)
+if sal>3000:
+    grat4=sal*(20/100) 
+    sal4=sal+grat4
+    print('Valor de gratificação:R$', grat4) 
+    print('Salário líquido:R$', sal4)
