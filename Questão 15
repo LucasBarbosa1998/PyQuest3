@@ -1,0 +1,9 @@
+#Questão N°15
+Jog1=int(input('Digite o código do objeto Jogador 1:')) 
+Jog2=int(input('Digite o código do objeto Jogador 2:')) 
+if Jog1==1 and Jog2==2 or Jog1==2 and Jog2==3:
+    print('Jogador 2 venceu.')
+elif Jog1==2 and Jog2==1 or Jog1==3 and Jog2==2: 
+    print('Jogador 1 venceu.')
+else:
+    print('Empate.')
