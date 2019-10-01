@@ -1,0 +1,12 @@
+Sexo= input('Digite seu gênero:')
+Salario= float(input('Digite seu salário:'))
+if Sexo== 'M':
+    descm= Salario*(5/100)
+    liquidom= Salario-descm
+    print('Salário líquido gênero masculino: R$', liquidom)
+    print('Desconto de 5%: R$', round(descm, 2))
+else:
+    desc= Salario*(3/100)
+    liquido= Salario-desc
+    print('Salário liquido: R$', liquido)
+    print('Desconto de 3%: R$', round(desc, 2))
