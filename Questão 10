@@ -1,0 +1,9 @@
+#Questão N°10
+Sexo=input('Digite seu sexo:') 
+Alt=float(input('Digite sua altura em centímetros:')) 
+if Sexo=='M':
+    PI=(Alt-100)*0.90
+    print('Peso Ideal sexo masculino:',round(PI, 2) ,'Kg') 
+if Sexo=='F':
+    PI=(Alt-100)*0.85
+    print('Peso Ideal sexo feminino:',round(PI, 2) ,'Kg')
