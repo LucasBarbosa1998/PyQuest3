@@ -1,0 +1,7 @@
+#Questão N°7
+peso=float(input('Digite o seu peso:')) 
+altura =float(input('Digite a sua altura:')) 
+Imc= peso/(altura*altura)
+print('Peso:', peso, 'Kg')
+print('Altura:', altura, 'm')
+print('IMC Calculado:', round(Imc,2))
