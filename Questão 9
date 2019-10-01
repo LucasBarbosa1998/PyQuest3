@@ -1,0 +1,15 @@
+#Questão N°9
+soma=0
+for c in range (0,4):
+    cod=int(input('Digite o código do produto:')) 
+    qnt1=int(input('Digite a quantidade:')) 
+    soma1=soma+(5.20*qnt1) 
+    soma2=soma+(7.30*qnt1) 
+    soma3=soma+(5.00*qnt1)
+    if cod==100 or 101:
+        soma=soma1 
+    if cod==102:
+        soma=soma2 
+    if cod==103:
+        soma=soma3
+print('Valor do lanche:', soma)
