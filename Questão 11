@@ -1,0 +1,34 @@
+#QUESTÃO 11
+saldo = float(input('Insira o valor do saldo médio no último ano: R$ '))
+
+
+if saldo >= 0 and saldo <= 200:
+
+    print('O crédito não foi autorizado.')
+
+
+if saldo >= 201 and saldo <= 400:
+
+    aprovado = saldo * 0.2
+
+    print ('Crédito pré-aprovado.')
+
+    print ('Seu saldo foi R$ {:.2f} O valor do crédito pré-aprovado é: R$ {:.2f}'.format(saldo, aprovado))
+
+
+if saldo >= 401 and saldo <= 600:
+
+    aprovado = saldo * 0.3
+
+    print ('Crédito pré-aprovado.')
+
+    print ('Seu saldo foi R$ {:.2f} O valor do crédito pré-aprovado é: R$ {:.2f}'.format(saldo, aprovado))
+
+
+if saldo > 601:
+
+    aprovado = saldo * 0.4
+
+    print ('Crédito pré-aprovado.')
+
+    print ('Seu saldo foi R$ {:.2f} O valor do crédito pré-aprovado é: R$ {:.2f}'.format(saldo, aprovado))
