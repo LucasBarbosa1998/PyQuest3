@@ -1,0 +1,19 @@
+
+#QUESTÃO 12
+
+salario = float(input('Digite o valor do salário bruto: R$ '))
+
+
+inss = salario * 0.1
+
+ir   = salario * 0.25
+
+sind = salario * 0.05
+
+desc = inss+ir+sind
+
+liquido = salario - desc
+
+
+print ('Descontos:\nINSS: R$ {:.2f}\nIR: R$ {:.2f}\nSindicato: R$ {:.2f}\nLíquido a Receber: R$ {:.2f}'.format(inss, ir, sind, liquido))
+
