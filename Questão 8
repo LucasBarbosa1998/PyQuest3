@@ -1,0 +1,33 @@
+#QUESTÃO 8
+
+p = float(input('Digite o primeiro ponto coordenado (Ex. (x.y)): '))
+
+q = float(input('Digite o segundo ponto coordenado (Ex. (x.y): '))
+
+
+x1 = int(p)
+
+sep = p % 1
+
+sep = str(sep)
+
+y1 = sep[2]
+
+y1 = int(y1)
+
+
+x2 = int(q)
+
+sep2 = q % 1
+
+sep2 = str(sep2)
+
+y2 = sep2[2]
+
+y2 = int(y2)
+
+
+d = (((x2-x1)**2)+((y2-y1)**2))**1/2
+
+
+print ('A distância entre o primeiro e o segundo ponto no plano cartesiano é: {:.0f}'.format(d))
