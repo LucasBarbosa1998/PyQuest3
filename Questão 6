@@ -1,0 +1,32 @@
+#QUESTÃO 6
+
+registro     = int(input('Digite o número de fabricação do aço: '))
+
+cont_carbono = float(input('Digite o percentual (Conteúdo de carbono): '))
+
+dur_hokwell  = int(input('Digite o valor (Dureza de Hokwell): '))
+
+res_tracao   = int(input('Digite o valor (Resistência a tração): '))
+
+
+if cont_carbono < 7 and dur_hokwell > 50 and res_tracao > 80000:
+
+    print ('\nAço de registro {}, tem classificação de grau 10'.format(registro))
+
+    
+
+elif cont_carbono < 7 and dur_hokwell > 50 and res_tracao <= 80000:
+
+    print ('\nAço de registro {}, tem classificação de grau 9'.format(registro))
+
+    
+
+elif cont_carbono < 7 and dur_hokwell < 50 and res_tracao <= 80000:
+
+    print ('\nAço de registro {}, tem classificação de grau 8'.format(registro))
+
+    
+
+else:
+
+    print ('\nAço de registro {}, tem classificação de grau 7'.format(registro))
